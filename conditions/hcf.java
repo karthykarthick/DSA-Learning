@@ -17,5 +17,6 @@ public class hcf {
             }
         }
         System.out.println("Hcf is: "+hcf);
+        System.out.println("Lcm is:"+(num1*num2)/hcf);
     }
 }
