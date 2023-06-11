@@ -7,6 +7,7 @@ public class palindrome_number {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int n = in.nextInt();
+        int temp = n;
         int last_num;
         int rev=0;
         while(n!=0){
@@ -15,5 +16,10 @@ public class palindrome_number {
             n=n/10; 
         }
         System.out.println(rev);
+        if(temp==rev){
+            System.out.println("It is a palindrome");
+        }else{
+            System.out.println("Not a palindrome");
+        }
     }
 }
